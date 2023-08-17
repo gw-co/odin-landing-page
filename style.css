@@ -118,7 +118,7 @@ body{
     }
 
     .info{
-        min-height: 400px;
+        min-height: 500px;
         padding: 50px 14%;
 
         display: flex;
@@ -156,13 +156,92 @@ body{
             }
         }
     }
+
+    .quote{
+        min-height: 430px;
+        padding: 50px 14%;
+        background-color: #e5e7eb;
+
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        
+        .quote-container{
+            width: 80%;
+            margin: auto;
+
+            flex: 0 1 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .quote-paragraph{
+                margin-bottom: 0;
+                font-size: 36px;
+                font-weight: 150;
+                font-style: italic;
+                color: #1f2937;
+            }
+            .quote-by{
+                margin: 0;
+                margin-left: auto;
+                padding-right: 50px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .contact{
+        height: 350px;
+        padding: 100px 14.5%;
+        display: flex;
+
+        .contact-container{
+            flex: 1 0 auto;
+            background-color: #3882f6;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 12%;
+
+            .left{
+                color: white;
+                display: flex;
+                flex-direction: column;
+                .contact-header{
+                    margin: 0;
+                    /* margin: 0; */
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+                .contact-text{
+                    margin: 0;
+                    font-size: 18px;
+                    color: #e5e7eb;
+                }
+            }
+
+            .signup-button{
+                background-color: #3882f6;
+                color: white;
+                border: 2px solid white;
+                border-radius: 8px;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 8px 32px;
+            }
+        }
+    }
 }
 
 .footer{
+    height: 100px;
     background-color: #1f2937;
     color: #f9faf8;
+    font-size: 18px;
     flex: 0 0 auto;
-    height: 72px;
     display: flex;
     align-items: center;
     justify-content: center;
